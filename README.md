@@ -1,29 +1,21 @@
-# go-octopusdeploy [![Build status](https://ci.appveyor.com/api/projects/status/5t5gbqjyl8hpou52?svg=true)](https://ci.appveyor.com/project/MattHodge/go-octopusdeploy)
+# [DEPRECIATED] go-octopusdeploy
 
-A Go wrapper for the [Octopus Deploy](https://octopus.com/) REST API.
+Good news!
 
-This exists to be used in the [Octopus Deploy Terraform Provider](https://github.com/MattHodge/terraform-provider-octopusdeploy).
+The team at [Octopus Deploy](https://octopus.com/) have taken notice of this project :tada:.
 
-> :warning: The Octopus Deploy REST Client is in heavy development.
+We have both decided the best way forward for the project is for the team at Octopus Deploy to take over the reins and continue the development and support.
 
-## Go Dependencies
+This means that Octopus Deploy will be getting an *official* Terraform provider :heart_eyes:.
 
-* Dependencies are managed using [dep](https://golang.github.io/dep/docs/new-project.html)
+It was never my intention to spend a lot of time looking after this project, so I am very excited that the team reached out and offered assistance.
 
-```bash
-# Vendor new modules
-dep ensure
-```
+The project has been forked at https://github.com/OctopusDeploy/go-octopusdeploy.
 
-## Using the main.go Example
+Please head over there to contribute and file bug reports!
 
-```bash
-export OCTOPUS_URL=http://localhost:8081/
-export OCTOPUS_APIKEY=API-FAKEAPIKEYFAKEAPIKEY
+Happy Deploying!
 
-go run main.go # creates a project
-```
-
-## Contributing
-
-💻 Want to help me out? Check out [CONTRIBUTING.md](CONTRIBUTING.md) and hit me up [@MattHodge](https://twitter.com/matthodge).
+Matthew Hodgkins
+* **Twitter** - [@MattHodge](https://twitter.com/matthodge)
+* **Blog** - [hodgkins.io](https://hodgkins.io)
